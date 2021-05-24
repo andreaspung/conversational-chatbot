@@ -4,10 +4,10 @@ This directory contains the code used for tuning GPT-2. The steps for training a
 This version has the metadata removed.
 * Clean remaining separators and segment text using process.py
 * Setup virtual environment:
-** Download gpt-2 repo - "git clone https://github.com/nshepperd/gpt-2.git"
-** Create new conda environment (Python version 3.7)
-** Install necessary packages from gpt-2/requirements.txt using pip - "pip install -r requirements.txt"
-** Install tensorflow-gpu version 1.15 using conda. Tensorflow version 2 is not supported!
+- Download gpt-2 repo - "git clone https://github.com/nshepperd/gpt-2.git"
+- Create new conda environment (Python version 3.7)
+- Install necessary packages from gpt-2/requirements.txt using pip - "pip install -r requirements.txt"
+- Install tensorflow-gpu version 1.15 using conda. Tensorflow version 2 is not supported!
 * Copy all files from gpt-2/src into gpt-2 (the imports seem not to work otherwise)
 * Copy train2.py into gpt-2. This is a modified version of train.py with a time limit (in seconds) on line 284.
 * Download 117M gpt-2 model - "python download_model.py 117M"
