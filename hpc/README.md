@@ -14,3 +14,5 @@ This version has the metadata removed.
 * Modify nlp_batch.sh to fit with your environment, time limit and email address.
 
 All of this was mostly based on: https://medium.com/ai-innovation/beginners-guide-to-retrain-gpt-2-117m-to-generate-custom-text-content-8bb5363d8b7f
+
+Trained models can be downloaded from: https://drive.google.com/drive/u/1/folders/1tq29RUnEUYpAeyN_TECOPWydVwlD0hFZ
